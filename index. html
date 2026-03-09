@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Page</title>
+</head>
 
+<body>
+
+<header>
+    <h1>Tayrus Remollo</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a> |
+    <a href="#about">About</a> |
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my personal page. This page shows basic HTML elements for my lab activity.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <article>
+        <p>Hello! My name is Tayrus. I am a student learning HTML and web development. I enjoy learning new technology and improving my coding skills.</p>
+    </article>
+</section>
+
+<h2>My Interests</h2>
+<ul>
+    <li>Coding</li>
+    <li>Playing Games</li>
+    <li>Watching Videos</li>
+</ul>
+
+<h2>My Picture</h2>
+<img src="https://via.placeholder.com/200" alt="My profile picture">
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>You can contact me through email or social media.</p>
+</section>
+
+<h2>Registration Form</h2>
+
+<form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="birthdate">Birthdate:</label><br>
+    <input type="date" id="birthdate" name="birthdate"><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<footer>
+    <p>© 2026 Tayrus Remollo. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
